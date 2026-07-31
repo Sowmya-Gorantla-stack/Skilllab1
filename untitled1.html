@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Table with CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #d6eeee;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Student Details</h2>
+
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Sowmya</td>
+            <td>CSE</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Yashitha</td>
+            <td>ECE</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Yasawini</td>
+            <td>AIML</td>
+            <td>92</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Rahul</td>
+            <td>EEE</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+</body>
+</html>
